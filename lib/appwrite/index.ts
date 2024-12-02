@@ -1,3 +1,4 @@
+'use server';
 import {Account, Avatars, Client, Databases, Storage} from "appwrite";
 import {appWriteConfig} from "@/lib/appwrite/config";
 import {cookies} from "next/headers";
